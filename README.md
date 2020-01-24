@@ -4,7 +4,8 @@ Personal portfolio page [www.lukeketchen.com](www.lukeketchen.com) built in Reac
 
 ### Building Process
 
-1. I found a style that I would like to make the portfolio and I am looking in photoshop to see what colours go well together. These colours I will make into SCSS variables.
+1. **Design**
+   I found a style that I would like to make the portfolio and I am looking in photoshop to see what colours go well together. These colours I will make into SCSS variables.
 
    #### Colour template
 
@@ -19,9 +20,10 @@ Personal portfolio page [www.lukeketchen.com](www.lukeketchen.com) built in Reac
    - **Title text** - #c59a5b yellow
    - **Subtext** - #7a7a7a Light greay
 
-2.
+     So I have picked my colours and think I’m going to go with a one-page design with the projects looking like blog posts vertically down the page. A timeline down the centre with each post branching off it. Now I have my design thought out its time to start.
 
-3.
+2. **Create**
+   I’m going to start with create react app and rip it down.
 
 ### Challenges
 
