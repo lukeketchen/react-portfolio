@@ -21,7 +21,7 @@ I found a style that I would like to make the portfolio and I am looking in phot
 - **Title text** - #c59a5b yellow
 - **Subtext** - #7a7a7a Light greay
 
-  So I have picked my colours and think I’m going to go with a one-page design with the projects looking like blog posts vertically down the page. A timeline down the centre with each post branching off it. Now I have my design thought out its time to start.
+So I have picked my colours and think I’m going to go with a one-page design with the projects looking like blog posts vertically down the page. A timeline down the centre with each post branching off it. Now I have my design thought out its time to start.
 
 ## Create
 
