@@ -8,13 +8,9 @@ Personal portfolio page [www.lukeketchen.com](www.lukeketchen.com) built in Reac
 
    #### Colour template
 
-   **BG**- #242424 - light grey
-   **Post BG** - #151515 - medium grey
-   **SidebarBG** - #151515 - dark grey
+   -**BG**- #242424 - light grey -**Post BG** - #151515 - medium grey -**SidebarBG** - #151515 - dark grey
 
-   **Text colour**
-   **Title text** - #c59a5b - yellow
-   **Subtext** - #7a7a7a - Light greay
+   **Text colour** -**Title text** - #c59a5b - yellow -**Subtext** - #7a7a7a - Light greay
 
 2.
 
