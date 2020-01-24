@@ -1,13 +1,13 @@
 import React from "react";
-import SingleProject from "./SingleProject";
+import ProjectPost from "./ProjectPost";
 
 const Projects = () => (
   <div>
-    <SingleProject />
-    <SingleProject />
-    <SingleProject />
-    <SingleProject />
-    <SingleProject />
+    <ProjectPost />
+    <ProjectPost />
+    <ProjectPost />
+    <ProjectPost />
+    <ProjectPost />
   </div>
 );
 
