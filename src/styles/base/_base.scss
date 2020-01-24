@@ -1,0 +1,32 @@
+html {
+}
+
+body {
+  background-color: $bg-main;
+  color: $txt-plain;
+  font-family: $font-main;
+}
+
+button {
+}
+
+.is-active {
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: $font-title;
+  letter-spacing: $xs-size;
+  text-align: center;
+  font-size: $xl-size;
+  color: $txt-title;
+  font-weight: bold;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: $font-title;
+  text-align: center;
+  font-size: $m-size;
+  letter-spacing: $xxs-size;
+}

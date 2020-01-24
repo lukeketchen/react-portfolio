@@ -13,7 +13,7 @@ I found a style that I would like to make the portfolio and I am looking in phot
 **Background**
 
 - **BG**- #242424 light grey
-- **Post BG** - #151515 medium grey
+- **Post BG** - #2b2b2b medium grey
 - **SidebarBG** - #151515 dark grey
 
 **Text colour**
