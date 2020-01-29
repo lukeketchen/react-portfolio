@@ -1,0 +1,21 @@
+.projects {
+  display: grid;
+  grid-template-columns: 5% 42.5% 5% 42.5% 5%;
+  grid-template-areas: "start col1 mid col2 end";
+  justify-items: center;
+  margin-top: $xl-size;
+  margin-bottom: $xl-size;
+}
+.col1 {
+  grid-area: col1;
+}
+.mid {
+  grid-area: mid;
+  border-left: 6px solid $txt-title;
+  height: 100%;
+  left: 50%;
+  margin-left: -3px;
+}
+.col2 {
+  grid-area: col2;
+}

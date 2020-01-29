@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const AppRouter = () => (
   <Router>
-    <div>
+    <div className="container">
       <Header />
       <Switch>
         <Route exact path="/" component={MainPage} />

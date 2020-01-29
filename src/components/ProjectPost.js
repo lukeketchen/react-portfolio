@@ -1,5 +1,5 @@
 import React from "react";
-import websiteImage from "../img/website1.jpg";
+import websiteImage from "../assets/images/website1.jpg";
 
 const ProjectPost = () => (
   <div className="post">

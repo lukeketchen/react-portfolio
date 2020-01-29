@@ -3,7 +3,7 @@ import About from "./About";
 import Projects from "./Projects";
 
 const MainPage = () => (
-  <div>
+  <div className="mainpage">
     <h2> Welcome to Luke Ketchen's</h2>
     <h1>Portfolio</h1>
     <Projects />
