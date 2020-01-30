@@ -8,7 +8,6 @@ const ProjectCountdown = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      {" "}
       <img src={countdownTimerImage} alt="post" />
     </a>
     <h1>Countdown Timer</h1>

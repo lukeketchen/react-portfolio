@@ -2,21 +2,23 @@ import React from "react";
 import profilePic from "../assets/images/profile_pic.jpg";
 
 const Header = () => (
-  <header>
-    <h1>Luke Ketchen</h1>
+  <header id="header">
+    <h2>Luke Ketchen</h2>
     <img src={profilePic} alt="Profile Pic" />
-    <h2>React Developer</h2>
-    <h3>
-      <i className="fas fa-location-arrow"></i> <br />
-      Hoppers Crossing, Vic
-    </h3>
-    <h3>
-      <i className="fas fa-envelope"></i> <br />
-      <a href="mailto:lukeketchen@gmail.com" target="_top">
-        lukeketchen@gmail.com
-      </a>
-    </h3>
-    <div className="icondiv">
+    <h3>React Developer</h3>
+    <div>
+      <h4>
+        <i className="fas fa-location-arrow"></i> <br />
+        Hoppers Crossing, Vic
+      </h4>
+      <h4>
+        <i className="fas fa-envelope"></i> <br />
+        <a href="mailto:lukeketchen@gmail.com" target="_top">
+          lukeketchen@gmail.com
+        </a>
+      </h4>
+    </div>
+    <div className="icondiv" id="icondiv">
       <a
         href="https://github.com/lukeketchen"
         target="_blank"

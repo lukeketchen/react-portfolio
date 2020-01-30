@@ -6,7 +6,30 @@ $m-size: 1.6rem;
 $l-size: 3.2rem;
 $xl-size: 4.8rem;
 $xxl-size: 7.8rem;
-$desktop-breakpoint: 45rem;
+$desktop-breakpoint: 812px;
+
+//padding & margin sizes
+$xs-pad: 0.3vw;
+$s-pad: 0.6vw;
+$m-pad: 1vw;
+$l-pad: 1.5vw;
+$xl-pad: 3vw;
+$xxl-pad: 4vw;
+$xxxl-pad: 7vw;
+
+// Text sizes
+$xxs-text: 0.05vw;
+$xs-text: 0.3vw;
+$s-text: 0.6vw;
+$m-text: 1vw;
+$l-text: 1.5vw;
+$xl-text: 3vw;
+$xxl-text: 4vw;
+
+// image sizes
+$post-img: 25vw;
+$post-imgh: 15vw;
+$about-img: 15vw;
 
 $post-size: 30rem;
 $img-size: 15rem;

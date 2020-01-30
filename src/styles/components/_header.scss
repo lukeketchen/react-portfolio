@@ -3,19 +3,16 @@ header {
   width: 15%;
   position: fixed;
   top: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 
   grid-area: header;
   background-color: $bg-sidebar;
   align-items: center;
 }
-header h1 {
-  font-size: $l-size;
-}
 header h2 {
   color: $txt-subtitle;
 }
-header h3 a {
+header h4 a {
   color: $txt-subtitle;
   text-decoration: none;
 }
@@ -26,10 +23,10 @@ header img {
   margin-right: auto;
 }
 header nav {
-  margin-top: $xxl-size;
+  margin-top: $xxl-text;
 }
 header nav a {
-  margin-top: $xl-size;
+  margin-top: $xl-text;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -43,7 +40,7 @@ header nav a {
   text-transform: uppercase;
   font-family: $font-title;
   text-align: center;
-  font-size: $m-size;
+  font-size: $m-text;
   text-decoration: none;
 }
 .icondiv {
@@ -60,4 +57,33 @@ a:hover {
 }
 .is-active {
   text-decoration: none;
+}
+
+@media only screen and (max-width: $desktop-breakpoint) {
+  header {
+    width: 100%;
+    height: $xxxl-pad;
+    left: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  header nav a {
+    margin: auto $m-text auto $m-text;
+  }
+  header img {
+    display: none;
+  }
+  .icondiv {
+  }
+  .icondiv i {
+    font-size: $m-text;
+  }
 }

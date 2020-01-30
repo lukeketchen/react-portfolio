@@ -18,3 +18,18 @@
   margin-bottom: $m-size;
   border-radius: 0;
 }
+@media screen and (max-width: $desktop-breakpoint) {
+  .post {
+    width: $post-img;
+    height: $post-img;
+    margin: $m-pad;
+  }
+  .post img {
+    margin-bottom: $m-pad;
+    height: $post-imgh;
+  }
+  .post h1 {
+    font-size: $m-text;
+    margin-bottom: $s-pad;
+  }
+}

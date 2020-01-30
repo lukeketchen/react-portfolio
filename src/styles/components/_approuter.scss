@@ -6,3 +6,10 @@
     "header main"
     "header footer";
 }
+@media screen and (max-width: $desktop-breakpoint) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

@@ -8,11 +8,9 @@ const ProjectPost = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      {" "}
       <img src={websiteImage} alt="post" />
     </a>
     <h1>Farm Fencing website</h1>
-
     <div className="icondiv">
       <a
         href="https://quirky-keller-14bec9.netlify.com/"

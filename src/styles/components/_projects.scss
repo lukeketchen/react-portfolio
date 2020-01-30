@@ -19,3 +19,18 @@
 .col2 {
   grid-area: col2;
 }
+@media screen and (max-width: $desktop-breakpoint) {
+  .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: $s-pad;
+  }
+  .col1 {
+  }
+  .mid {
+    display: none;
+  }
+  .col2 {
+  }
+}

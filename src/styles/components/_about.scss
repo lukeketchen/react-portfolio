@@ -21,6 +21,9 @@
   margin-top: $xl-size;
   color: $txt-subtitle;
 }
+.abouttext h4 {
+  text-align: start;
+}
 .abouttext ol {
   display: flex;
   flex-direction: column;
@@ -60,4 +63,32 @@
 .aboutdiv a {
   text-decoration: none;
   color: $txt-title;
+}
+@media screen and (max-width: $desktop-breakpoint) {
+  .aboutdiv {
+    padding-top: $s-pad;
+    padding-bottom: $s-pad;
+  }
+  .abouttext {
+    margin-top: $s-pad;
+  }
+  .abouttext h4 {
+    font-size: $xxs-size;
+    text-align: start;
+  }
+  .abouttext img {
+    width: $about-img;
+    margin-top: $xs-pad;
+  }
+  .abouttext i {
+    font-size: $xl-text;
+  }
+  .aboutfeatures {
+    flex-direction: column;
+    align-items: center;
+    margin-top: $s-pad;
+  }
+  .features h5 {
+    font-size: $xxs-size;
+  }
 }
