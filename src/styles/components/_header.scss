@@ -15,12 +15,15 @@ header h1 {
 header h2 {
   color: $txt-subtitle;
 }
+header h3 a {
+  color: $txt-subtitle;
+  text-decoration: none;
+}
 header img {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: $m-size;
 }
 header nav {
   margin-top: $xxl-size;

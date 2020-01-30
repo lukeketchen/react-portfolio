@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import profilePic from "../assets/images/profile_pic.jpg";
 
 const Header = () => (
@@ -8,31 +7,40 @@ const Header = () => (
     <img src={profilePic} alt="Profile Pic" />
     <h2>React Developer</h2>
     <h3>
-      <i class="fas fa-location-arrow"></i> <br />
+      <i className="fas fa-location-arrow"></i> <br />
       Hoppers Crossing, Vic
     </h3>
+    <h3>
+      <i className="fas fa-envelope"></i> <br />
+      <a href="mailto:lukeketchen@gmail.com" target="_top">
+        lukeketchen@gmail.com
+      </a>
+    </h3>
     <div className="icondiv">
-      <a href="https://github.com/lukeketchen" target="_blank">
-        <i class="fab fa-github"></i>
+      <a
+        href="https://github.com/lukeketchen"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-github"></i>
       </a>
       <a
         href="https://www.instagram.com/luke.ketchen.photography"
         target="_blank"
+        rel="noopener noreferrer"
       >
-        <i class="fab fa-instagram"></i>
+        <i className="fab fa-instagram"></i>
       </a>
       <a
         href="https://www.linkedin.com/in/luke-ketchen-706882107"
         target="_blank"
+        rel="noopener noreferrer"
       >
-        <i class="fab fa-linkedin"></i>
+        <i className="fab fa-linkedin"></i>
       </a>
     </div>
     <nav>
-      <NavLink exact to="/" activeClassName="is-active">
-        Home
-      </NavLink>
-      <a href="#projects">Projects</a>
+      <a href="#projects">Portfolio</a>
       <a href="#about">About</a>
     </nav>
   </header>

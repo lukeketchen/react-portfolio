@@ -1,3 +1,63 @@
 .about {
   background-color: $bg-about;
 }
+.aboutdiv {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: $xxl-size;
+  padding-bottom: $xxl-size;
+}
+.aboutdiv h2 {
+  color: $txt-subtitle;
+}
+.aboutdiv h3 {
+  font-size: $s-size;
+}
+.abouttext {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $xl-size;
+  color: $txt-subtitle;
+}
+.abouttext ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.abouttext li {
+  list-style: none;
+  margin: $s-size;
+}
+.abouttext i {
+  font-size: $l-size;
+}
+.abouttext img {
+  width: $img-size;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $xxl-size;
+}
+.longtext i {
+  font-size: $xs-size;
+  margin-left: $xxs-size;
+  margin-right: $xxs-size;
+}
+.aboutfeatures {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: $xl-size;
+}
+.aboutfeatures .features {
+  width: 33.3%;
+  text-align: center;
+}
+.aboutfeatures .captext {
+  text-transform: uppercase;
+}
+.aboutdiv a {
+  text-decoration: none;
+  color: $txt-title;
+}

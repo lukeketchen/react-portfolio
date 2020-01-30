@@ -1,16 +1,15 @@
 import React from "react";
 import ProjectPost from "./ProjectPost";
+import ProjectCountdown from "./ProjectCountdown";
 
 const Projects = () => (
   <div className="projects">
     <div className="col1">
       <ProjectPost />
-      <ProjectPost />
     </div>
     <div className="mid"> </div>
     <div className="col2">
-      <ProjectPost />
-      <ProjectPost />
+      <ProjectCountdown />
     </div>
   </div>
 );
