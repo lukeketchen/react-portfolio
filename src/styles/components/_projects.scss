@@ -11,10 +11,27 @@
 }
 .mid {
   grid-area: mid;
-  border-left: 6px solid $txt-title;
+  //   border-left: 6px solid $txt-title;
+  //   height: 100%;
+  //   left: 50%;
+  //   margin-left: -3px;
   height: 100%;
-  left: 50%;
-  margin-left: -3px;
+  display: grid;
+  grid-template-columns: 4fr 1fr 4fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "midtext midtext midtext" ". midline .";
+}
+.midtext {
+  grid-area: midtext;
+  text-align: center;
+}
+.midtext h4 {
+  font-size: $m-text;
+}
+.midline {
+  grid-area: midline;
+  background-color: $txt-title;
+  border-radius: 5px;
 }
 .col2 {
   grid-area: col2;

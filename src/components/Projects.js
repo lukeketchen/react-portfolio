@@ -7,7 +7,12 @@ const Projects = () => (
     <div className="col1">
       <ProjectPost />
     </div>
-    <div className="mid"> </div>
+    <div className="mid">
+      <div className="midtext">
+        <h4>Most Recent</h4>
+      </div>
+      <div className="midline"></div>
+    </div>
     <div className="col2">
       <ProjectCountdown />
     </div>
