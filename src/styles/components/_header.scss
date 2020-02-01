@@ -22,6 +22,12 @@ header img {
   margin-left: auto;
   margin-right: auto;
 }
+header .resume i {
+}
+.hover:hover {
+  color: $txt-title;
+  cursor: pointer;
+}
 header nav {
   margin-top: $xxl-text;
 }

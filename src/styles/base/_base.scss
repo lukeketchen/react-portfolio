@@ -54,6 +54,8 @@ img {
 
 i {
   color: $txt-title;
+  font-family: $font-main;
+  letter-spacing: $xxs-text;
 }
 @media only screen and (max-width: $desktop-breakpoint) {
   h1 {

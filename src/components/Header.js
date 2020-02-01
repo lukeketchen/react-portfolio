@@ -6,7 +6,18 @@ const Header = () => (
     <h2>Luke Ketchen</h2>
     <img src={profilePic} alt="Profile Pic" />
     <h3>React Developer</h3>
-    <div>
+    <div className="">
+      <h3>
+        <a
+          href="https://drive.google.com/open?id=15EoQXKIaFux3-tfb9Ur6nGhh7R8Dt3aGlBcYt0zz3LY"
+          target="_blank"
+        >
+          <i class="fas fa-file hover">
+            <br />
+            <h3>Resume</h3>
+          </i>
+        </a>
+      </h3>
       <h4>
         <i className="fas fa-location-arrow"></i> <br />
         Hoppers Crossing, Vic
