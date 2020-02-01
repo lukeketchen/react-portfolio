@@ -10,7 +10,7 @@ const ProjectPost = () => (
     >
       <img src={websiteImage} alt="post" />
     </a>
-    <h1>Farm Fencing website</h1>
+    <h5>Farm Fencing website</h5>
     <div className="icondiv">
       <a
         href="https://quirky-keller-14bec9.netlify.com/"

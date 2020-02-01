@@ -15,7 +15,8 @@ const About = () => (
             <i className="fas fa-bolt"></i>
             <h5 className="captext">
               <strong>2004 - Current</strong>
-              <br /> Electrician
+              <br />
+              Electrician
             </h5>
           </div>
           <div className="features">

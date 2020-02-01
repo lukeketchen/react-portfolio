@@ -7,12 +7,6 @@ body {
   font-family: $font-main;
 }
 
-button {
-}
-
-.is-active {
-}
-
 h1 {
   text-transform: uppercase;
   font-family: $font-title;
@@ -30,18 +24,55 @@ h2 {
   font-size: $l-text;
   letter-spacing: $xs-text;
 }
+
 h3 {
   text-align: center;
   font-family: $font-title;
   font-size: $m-text;
   color: $txt-subtitle;
 }
+
 h4 {
   text-align: center;
   font-family: $font-title;
   font-size: $s-text;
   color: $txt-subtitle;
 }
+
+h5 {
+  font-size: $s-text;
+  color: $txt-plain;
+  text-align: center;
+  font-family: $font-title;
+  letter-spacing: $xxs-text;
+  text-transform: uppercase;
+}
+
 img {
   border-radius: $m-text;
+}
+
+i {
+  color: $txt-title;
+}
+@media only screen and (max-width: $desktop-breakpoint) {
+  h1 {
+    font-size: $xl-mtext;
+  }
+  h2 {
+    font-size: $xl-mtext;
+  }
+  h3 {
+    font-size: $l-mtext;
+  }
+  h4 {
+    font-size: $m-mtext;
+  }
+  h5 {
+    font-size: $s-mtext;
+    letter-spacing: $s-text;
+  }
+  p {
+    font-size: $s-mtext;
+  }
 }

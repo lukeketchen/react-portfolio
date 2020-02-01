@@ -10,7 +10,7 @@ const ProjectCountdown = () => (
     >
       <img src={countdownTimerImage} alt="post" />
     </a>
-    <h1>Countdown Timer</h1>
+    <h5>Countdown Timer</h5>
 
     <div className="icondiv">
       <a

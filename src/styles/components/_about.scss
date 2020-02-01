@@ -70,25 +70,33 @@
     padding-bottom: $s-pad;
   }
   .abouttext {
-    margin-top: $s-pad;
+    width: 100%;
+    margin-top: $xxs-margin;
+  }
+  .aboutdiv h2 {
+    font-size: $m-mtext;
+  }
+  .aboutdiv h3 {
+    font-size: $s-mtext;
   }
   .abouttext h4 {
-    font-size: $xxs-size;
+    font-size: $s-mtext;
     text-align: start;
   }
   .abouttext img {
-    width: $about-img;
+    width: $about-mimg;
     margin-top: $xs-pad;
   }
   .abouttext i {
-    font-size: $xl-text;
+    font-size: $l-mtext;
   }
   .aboutfeatures {
+    width: 100%;
     flex-direction: column;
     align-items: center;
     margin-top: $s-pad;
   }
-  .features h5 {
-    font-size: $xxs-size;
+  .aboutfeatures .features {
+    width: 100%;
   }
 }

@@ -4,11 +4,7 @@
   padding-top: $m-size;
   padding-bottom: $m-size;
 }
-.post h1 {
-  font-size: 100%;
-  color: $txt-plain;
-  margin-bottom: $m-size;
-}
+
 .post img {
   width: 80%;
   height: $img-size;
@@ -20,16 +16,14 @@
 }
 @media screen and (max-width: $desktop-breakpoint) {
   .post {
-    width: $post-img;
-    height: $post-img;
-    margin: $m-pad;
+    width: 80vw;
+    margin-bottom: $xxs-margin;
   }
   .post img {
     margin-bottom: $m-pad;
-    height: $post-imgh;
+    height: $post-mimg;
   }
-  .post h1 {
-    font-size: $m-text;
-    margin-bottom: $s-pad;
+  .post i {
+    font-size: $l-mtext;
   }
 }

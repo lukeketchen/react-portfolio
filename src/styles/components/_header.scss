@@ -43,6 +43,10 @@ header nav a {
   font-size: $m-text;
   text-decoration: none;
 }
+
+header i {
+  color: $txt-subtitle;
+}
 .icondiv {
   display: flex;
   justify-content: center;
@@ -62,28 +66,25 @@ a:hover {
 @media only screen and (max-width: $desktop-breakpoint) {
   header {
     width: 100%;
-    height: $xxxl-pad;
+    height: $header-margin;
+    padding-bottom: $xxl-pad;
     left: 0;
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  header h2 {
+    color: $txt-title;
+    margin-bottom: 0;
+  }
+  header h3 {
+    margin-top: 0;
   }
   header nav {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  header nav a {
-    margin: auto $m-text auto $m-text;
-  }
-  header img {
     display: none;
   }
-  .icondiv {
-  }
-  .icondiv i {
-    font-size: $m-text;
+  header .icondiv i {
+    font-size: $xxl-mtext;
   }
 }

@@ -17,6 +17,17 @@ $xl-pad: 3vw;
 $xxl-pad: 4vw;
 $xxxl-pad: 7vw;
 
+//margin sizes
+$xxs-margin: 5vh;
+$xs-margin: 13vh;
+$s-margin: 16vh;
+$m-margin: 17vh;
+$l-margin: 19vh;
+$xl-margin: 20vh;
+$xxl-margin: 24vh;
+$xxxl-margin: 27vh;
+$header-margin: 90vh;
+
 // Text sizes
 $xxs-text: 0.05vw;
 $xs-text: 0.3vw;
@@ -26,10 +37,23 @@ $l-text: 1.5vw;
 $xl-text: 3vw;
 $xxl-text: 4vw;
 
+// Mobile Text
+$xxs-mtext: 1vw;
+$xs-mtext: 2vw;
+$s-mtext: 4vw;
+$m-mtext: 6vw;
+$l-mtext: 8vw;
+$xl-mtext: 10vw;
+$xxl-mtext: 15vw;
+
 // image sizes
 $post-img: 25vw;
 $post-imgh: 15vw;
 $about-img: 15vw;
+//Mobile images
+$post-mimg: 25vh;
+$post-mimgh: 15vw;
+$about-mimg: 40vw;
 
 $post-size: 30rem;
 $img-size: 15rem;
