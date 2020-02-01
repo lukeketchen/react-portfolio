@@ -11,8 +11,9 @@ const Header = () => (
         <a
           href="https://drive.google.com/open?id=15EoQXKIaFux3-tfb9Ur6nGhh7R8Dt3aGlBcYt0zz3LY"
           target="_blank"
+          rel="noopener noreferrer"
         >
-          <i class="fas fa-file hover">
+          <i className="fas fa-file hover">
             <br />
             <h3>Resume</h3>
           </i>
