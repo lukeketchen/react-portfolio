@@ -1,13 +1,20 @@
 .projects {
   display: grid;
-  grid-template-columns: 5% 42.5% 5% 42.5% 5%;
-  grid-template-areas: "start col1 mid col2 end";
+  // grid-template-columns: 5% 42.5% 5% 42.5% 5%;
+  grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: ". col1 mid col2 .";
   justify-items: center;
   margin-top: $img-size;
   margin-bottom: $xl-size;
 }
 .col1 {
   grid-area: col1;
+  display: flex;
+  flex-direction: column;
+}
+.rcol1 {
+  grid-area: rcol1;
 }
 .mid {
   grid-area: mid;

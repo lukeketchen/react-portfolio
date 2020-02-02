@@ -1,11 +1,13 @@
 import React from "react";
 import ProjectPost from "./ProjectPost";
 import ProjectCountdown from "./ProjectCountdown";
+import Project_Portfolio from "./Project_Portfolio";
 
 const Projects = () => (
   <div className="projects">
     <div className="col1">
       <ProjectPost />
+      <Project_Portfolio />
     </div>
     <div className="mid">
       <div className="midtext">
