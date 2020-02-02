@@ -1,14 +1,14 @@
 import React from "react";
 import websiteImage from "../assets/images/dotcom.gif";
 
-const Project_Portfolio = () => (
+const ProjectPortfolio = () => (
   <div className="post">
-    <a href="#" rel="noopener noreferrer">
+    <a href="/#">
       <img src={websiteImage} alt="post" />
     </a>
     <h5>This Portfolio Website</h5>
     <div className="icondiv">
-      <a href="#" rel="noopener noreferrer">
+      <a href="/#">
         <i className="fas fa-desktop"></i>
       </a>
       <a
@@ -22,4 +22,4 @@ const Project_Portfolio = () => (
   </div>
 );
 
-export default Project_Portfolio;
+export default ProjectPortfolio;
