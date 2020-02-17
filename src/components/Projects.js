@@ -1,22 +1,24 @@
-import React from "react";
-import ProjectPost from "./ProjectPost";
-import ProjectCountdown from "./ProjectCountdown";
-import ProjectPortfolio from "./ProjectPortfolio";
+import React from 'react';
+import ProjectPost from './ProjectPost';
+import ProjectCountdown from './ProjectCountdown';
+import ProjectPortfolio from './ProjectPortfolio';
+import SocialButterfly from './projects/SocialButterfly';
 
 const Projects = () => (
-  <div className="projects">
-    <div className="col1">
-      <ProjectPortfolio />
-      <ProjectPost />
+  <div className='projects'>
+    <div className='col1'>
+      <SocialButterfly />
+      <ProjectCountdown />
     </div>
-    <div className="mid">
-      <div className="midtext">
+    <div className='mid'>
+      <div className='midtext'>
         <h4>Most Recent</h4>
       </div>
-      <div className="midline"></div>
+      <div className='midline'></div>
     </div>
-    <div className="col2">
-      <ProjectCountdown />
+    <div className='col2'>
+      <ProjectPortfolio />
+      <ProjectPost />
     </div>
   </div>
 );
