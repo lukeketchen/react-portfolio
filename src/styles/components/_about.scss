@@ -8,18 +8,16 @@
   padding-top: $xxl-size;
   padding-bottom: $xxl-size;
 }
-.aboutdiv h2 {
-  color: $txt-subtitle;
-}
+
 .aboutdiv h3 {
   font-size: $s-size;
 }
 .abouttext {
-  width: 50%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: $xl-size;
-  color: $txt-subtitle;
+  color: $color-grey;
 }
 .abouttext h4 {
   text-align: start;
@@ -62,7 +60,7 @@
 }
 .aboutdiv a {
   text-decoration: none;
-  color: $txt-title;
+  color: $color-gold;
 }
 @media screen and (max-width: $desktop-breakpoint) {
   .aboutdiv {

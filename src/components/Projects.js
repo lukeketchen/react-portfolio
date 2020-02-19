@@ -1,26 +1,22 @@
 import React from 'react';
+import { connect } from "react-redux";
 import ProjectPost from './ProjectPost';
-import ProjectCountdown from './ProjectCountdown';
-import ProjectPortfolio from './ProjectPortfolio';
-import SocialButterfly from './projects/SocialButterfly';
 
-const Projects = () => (
+const Projects = ({projects}) => (
   <div className='projects'>
-    <div className='col1'>
-      <SocialButterfly />
-      <ProjectCountdown />
-    </div>
-    <div className='mid'>
-      <div className='midtext'>
-        <h4>Most Recent</h4>
-      </div>
-      <div className='midline'></div>
-    </div>
-    <div className='col2'>
-      <ProjectPortfolio />
-      <ProjectPost />
-    </div>
+    {projects && projects.slice(0).reverse().map((project)=>{
+      return(
+        <ProjectPost key={project.id}  project={project}/>
+    )
+    })}
+    
   </div>
 );
 
-export default Projects;
+function mapStateToProps(state) {
+  return {
+    projects: state.projects
+  };
+}
+
+export default connect(mapStateToProps)(Projects);

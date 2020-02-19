@@ -1,26 +1,26 @@
 import React from "react";
-import websiteImage from "../assets/images/website.gif";
 
-const ProjectPost = () => (
+const ProjectPost = ({project}) => (
   <div className="post">
     <a
-      href="https://github.com/lukeketchen/project_reactjs_farm_fencing_website"
+      href={project.github}
       target="_blank"
       rel="noopener noreferrer"
     >
-      <img src={websiteImage} alt="post" />
+      <img src={project.thumbnail} alt="post" />
     </a>
-    <h5>Farm Fencing website</h5>
+    <h2 className='text-gold'>{project.title}</h2>
+    <h2>{project.stack}</h2>
     <div className="icondiv">
       <a
-        href="https://quirky-keller-14bec9.netlify.com/"
+        href={project.website}
         target="_blank"
         rel="noopener noreferrer"
       >
         <i className="fas fa-desktop"></i>
       </a>
       <a
-        href="https://github.com/lukeketchen/project_reactjs_farm_fencing_website"
+        href={project.github}
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -28,6 +28,5 @@ const ProjectPost = () => (
       </a>
     </div>
   </div>
-);
-
+  );
 export default ProjectPost;

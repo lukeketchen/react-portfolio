@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: $bg-main;
-  color: $txt-plain;
+  color: $color-white;
   font-family: $font-main;
 }
 
@@ -14,7 +14,7 @@ h1 {
   letter-spacing: $s-text;
   text-align: center;
   font-size: $xl-text;
-  color: $txt-title;
+  color: $color-gold;
   font-weight: bold;
 }
 
@@ -27,22 +27,21 @@ h2 {
 }
 
 h3 {
-  text-align: center;
   font-family: $font-title;
   font-size: $m-text;
-  color: $txt-subtitle;
+  color: $color-grey;
 }
 
 h4 {
   text-align: center;
   font-family: $font-title;
   font-size: $s-text;
-  color: $txt-subtitle;
+  color: $color-grey;
 }
 
 h5 {
   font-size: $s-text;
-  color: $txt-plain;
+  color: $color-white;
   text-align: center;
   font-family: $font-title;
   letter-spacing: $xxs-text;
@@ -54,9 +53,13 @@ img {
 }
 
 i {
-  color: $txt-title;
+  color: $color-gold;
   font-family: $font-main;
   letter-spacing: $xxs-text;
+}
+a{
+  text-decoration: none;
+
 }
 @media only screen and (max-width: $desktop-breakpoint) {
   h1 {

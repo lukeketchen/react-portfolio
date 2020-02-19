@@ -5,8 +5,8 @@ const Header = () => (
   <header id="header">
     <h2>Luke Ketchen</h2>
     <img src={profilePic} alt="Profile Pic" />
-    <h3>React Developer</h3>
-    <div className="">
+    <h2 className='text-center'>React Developer</h2>
+    <div className="text-center">
       <h3>
         <a
           href="https://drive.google.com/open?id=15EoQXKIaFux3-tfb9Ur6nGhh7R8Dt3aGlBcYt0zz3LY"
@@ -19,16 +19,16 @@ const Header = () => (
           </i>
         </a>
       </h3>
-      <h4>
+      <h3>
         <i className="fas fa-location-arrow"></i> <br />
         Hoppers Crossing, Vic
-      </h4>
-      <h4>
+      </h3>
+      <h3>
         <i className="fas fa-envelope"></i> <br />
-        <a href="mailto:lukeketchen@gmail.com" target="_top">
+        <a href="mailto:lukeketchen@gmail.com" target="_top" className='text-grey'>
           lukeketchen@gmail.com
         </a>
-      </h4>
+      </h3>
     </div>
     <div className="icondiv" id="icondiv">
       <a
@@ -54,8 +54,8 @@ const Header = () => (
       </a>
     </div>
     <nav>
-      <a href="#projects">Portfolio</a>
-      <a href="#about">About</a>
+      <h2><a href="#projects">Portfolio</a></h2>
+      <h2><a href="#about">About</a></h2>
     </nav>
   </header>
 );

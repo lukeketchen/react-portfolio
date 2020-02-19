@@ -4,12 +4,12 @@ import PhotograoherPic from "../assets/images/photograoherPic.jpg";
 const About = () => (
   <div className="about" id="about">
     <div className="aboutdiv">
-      <h2>Thanks for checking out my portfolio</h2>
+      <h2 className='text-grey'>Thanks for checking out my portfolio</h2>
       <h1>About Me</h1>
-      <h3>I love coding, I love photography and I love flying my drone</h3>
+      <h3 className='text-center'>I love coding, I love photography and I love flying my drone</h3>
       <div className="abouttext">
         <img src={PhotograoherPic} alt="Photographer" />
-        <h4>Short Version -</h4>
+        <h3>Short Version -</h3>
         <div className="aboutfeatures">
           <div className="features">
             <i className="fas fa-bolt"></i>
@@ -44,7 +44,7 @@ const About = () => (
           </div>
         </div>
         <div className="longtext">
-          <h4>Long Version -</h4>
+          <h3>Long Version -</h3>
           <p>Hi,</p>
           <p>
             A few things about me. I started work when I was 15 as an

@@ -10,22 +10,19 @@ header {
   align-items: center;
 }
 header h2 {
-  color: $txt-subtitle;
+  color: $color-grey;
 }
 header h4 a {
-  color: $txt-subtitle;
-  text-decoration: none;
+  color: $color-grey;
 }
 header img {
   display: block;
-  width: 50%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
-header .resume i {
-}
 .hover:hover {
-  color: $txt-title;
+  color: $color-gold;
   cursor: pointer;
 }
 header nav {
@@ -41,7 +38,7 @@ header nav a {
   flex-direction: column;
   align-items: baseline;
   text-align: center;
-  color: $txt-subtitle;
+  color: $color-grey;
 
   text-transform: uppercase;
   font-family: $font-title;
@@ -51,7 +48,7 @@ header nav a {
 }
 
 header i {
-  color: $txt-subtitle;
+  color: $color-grey;
 }
 .icondiv {
   display: flex;
@@ -60,10 +57,10 @@ header i {
 .icondiv i {
   padding: 0 $m-size 0 $m-size;
   font-size: $m-size;
-  color: $txt-title;
+  color: $color-gold;
 }
 a:hover {
-  color: $txt-title;
+  color: $color-gold;
 }
 .is-active {
   text-decoration: none;
@@ -81,11 +78,13 @@ a:hover {
     justify-content: space-around;
   }
   header h2 {
-    color: $txt-title;
+    color: $color-gold;
     margin-bottom: 0;
+    font-size: $m-mtext;
   }
   header h3 {
     margin-top: 0;
+    font-size: $s-mtext;
   }
   header nav {
     display: none;
